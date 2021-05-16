@@ -7,8 +7,8 @@ Uses past results from a kaggle dataset (https://www.kaggle.com/martj42/internat
 Belgium was the predicted winner.
 
 # Packages/Environment
-Python 3.7.10
-Jupyter Lab
-SK-Learn
-numpy
-pandas
+Python 3.7.10  
+Jupyter Lab  
+SK-Learn  
+numpy  
+pandas  
