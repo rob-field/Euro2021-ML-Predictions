@@ -6,8 +6,8 @@
 Aim: Using past international fixtures predict the results and outcome of the UEFA Euros 2020/21 competition.
 
 # Data and Method
-A Logistic Regression model is fitted and tuned (using RandomisedSearchCV) using past international results from all competitions from a kaggle dataset (https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017). Predictive outcomes (win/lost/draw) and  predictive probabilities are then generated using the model for the Euro2021 fixtures (https://fixturedownload.com/results/uefa-euro-2020).  
-Fifa club/team rankings were also appended to the dataset (https://www.fifa.com/fifa-world-ranking/ranking-table/men/) as an additional feature to improve predictive power.  
+A Logistic Regression model was fitted and tuned (using RandomisedSearchCV) using international results from all competitions from a kaggle dataset (https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017). Predictive outcomes (win/lost/draw) and predictive probabilities were then generated using the model for the upcoming Euro2021 fixtures (https://fixturedownload.com/results/uefa-euro-2020).  
+Fifa club/team rankings were also appended to the dataset (https://www.fifa.com/fifa-world-ranking/ranking-table/men/) as an additional feature to improve model predictive power.  
 
 The model predicted that Belgium would be the overall winner.  
 
